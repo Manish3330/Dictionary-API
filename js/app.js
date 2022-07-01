@@ -17,7 +17,7 @@ function btnhandler() {
            for( key in searchWord)
            {   if(key=='phonetic')
            {
-            html+=`<div class="card my-4" style="width: 40rem;margin: auto;">
+            html+=`<div class="card my-4" style="width: 20rem;margin: auto;">
             <div class="card-header" id="meaning">
                 <h4>Phonetic :</h4>
             </div>
@@ -42,7 +42,7 @@ function btnhandler() {
                   if(key=='definitions')
                   {
                     
-                   html+=`<div class="card my-4" style="width: 40rem;margin: auto;">
+                   html+=`<div class="card my-4" style="width: 20rem;margin: auto;">
                    <div class="card-header" id="meaning">
                        <h4>Meaning ${index+1}:</h4>
                    </div>
