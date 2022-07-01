@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(45 101 104);
+  background: #eaafc8;
     
+    background: linear-gradient(to right, #d83372, #141315);
+    min-height: 100vh;
 }
 #search-container{
     margin: auto;
